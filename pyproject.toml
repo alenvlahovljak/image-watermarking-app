@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "watermark"
+version = "0.1.0"
+description = ""
+authors = ["Alen Vlahovljak <alen.vlahovljak@evolt.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
